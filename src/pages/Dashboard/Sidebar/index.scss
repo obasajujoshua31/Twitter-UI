@@ -1,0 +1,61 @@
+.dashboard-sidebar {
+  // background: #007991; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  height: 100%;
+  box-shadow: 0 1px 10px lightgray;
+  // border-radius: 10px;
+}
+
+.sidebar-header {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 3rem;
+  }
+}
+
+.sidebar-tweets {
+  padding-top: 2rem;
+}
+
+.tweet-card {
+  width: 100px;
+  background-color: inherit;
+  border: none;
+  display: flex;
+  color: white;
+  overflow-wrap: break-word;
+  //   position: relative;
+
+  &:hover {
+    box-shadow: 0 1px 5px lightgray;
+    background-color: wheat;
+    width: 100%;
+  }
+}
+
+.sidebar-badge {
+  //   background-color: #007991;
+  border-radius: 2px;
+  width: 50px;
+  font-size: 10px;
+  position: absolute;
+  color: lightgray;
+  right: 8%;
+  top: 30%;
+  //   width: px;
+}
+
+.tweet-card-wrapper {
+  display: flex;
+  background-color: inherit;
+  position: relative;
+}
+
+.active {
+  background-color: #b3ffd2;
+  color: white;
+  width: 100%;
+}

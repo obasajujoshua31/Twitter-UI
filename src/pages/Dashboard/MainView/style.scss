@@ -1,0 +1,28 @@
+.dashboard-mainview {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+  background-color: white;
+  // height: 100%;
+}
+
+.tweet-comment {
+  // color: white;
+  // background: #d1cfcf;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+}
+
+.single-comment {
+  // background-color: #eeeeee;
+}
+
+.mainview-loader {
+  display: flex;
+  margin-top: 40%;
+}
+
+.mainview-emptytweet {
+  margin-top: 30%;
+}
